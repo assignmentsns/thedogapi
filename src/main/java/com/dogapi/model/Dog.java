@@ -8,6 +8,16 @@ public class Dog {
     private int life_span;
     private String temperament;
 
+    public Dog(int id, String name, double height, String temperament,
+               double weight, int lifeSpan) {
+        this.id = id;
+        this.name = name;
+        this.height = height;
+        this.temperament = temperament;
+        this.weight = weight;
+        this.life_span = lifeSpan;
+    }
+
     public double getWeight() {
         return weight;
     }
